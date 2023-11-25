@@ -1,0 +1,39 @@
+{
+  "homepage": "http://Zh-end-oS.github.io/cconsttest-front",
+  "name": "cconsttest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "clsx": "^2.0.0",
+    "group-by": "^0.0.1",
+    "lucide-react": "^0.292.0",
+    "next": "14.0.1",
+    "next-auth": "^4.24.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.48.2",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "gh-pages": "^6.1.0",
+    "install": "^0.13.0",
+    "postcss": "^8",
+    "sass": "^1.69.5",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5"
+  }
+}

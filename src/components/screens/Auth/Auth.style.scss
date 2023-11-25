@@ -1,0 +1,23 @@
+#auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  & > #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    border-radius: var(--brdr-rd);
+    // border: var(--main-clr) solid 1px;
+    box-shadow: var(--box-sh-btn);
+    
+    & > .formName {
+      margin-bottom: 15px;
+    }
+  }
+}

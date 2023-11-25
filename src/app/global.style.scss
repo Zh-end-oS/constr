@@ -1,0 +1,39 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  // Тени больших элементов (поле конструирования)
+  --box-sh-b-el: rgba(0, 36, 60, 0.2) 0px 5px 20px 0px;
+  // --box-sh-b-el: rgba(95, 72, 72, 0.2) 0px 7px 29px 0px;
+  // Тени кнопок
+  // --box-sh-btn: rgba(0, 0, 0, 0.2) 0px 4px 12px -2px;
+  --box-sh-btn: rgba(0, 36, 60, 0.2) 0px 2px 12px -0px;
+  // Радиус элементов
+  --brdr-rd: 5px;
+  // Темный цвет
+  --clr-dark: #11497e;
+  --clr-dark-gr: #222;
+  // Основной цвет
+  --main-clr: #c4edff;
+  
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // overflow: hidden;
+}
+
+main {
+  flex: 1 0 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}

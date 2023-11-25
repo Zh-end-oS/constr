@@ -1,0 +1,28 @@
+.field {
+  position: relative;
+  > input {
+    border: none;
+    border-bottom: var(--main-clr) solid 1px;
+    outline: none;
+    background-color: transparent;
+    width: 300px;
+    padding: 10px 0;
+    transition: border-bottom .3s ease-in-out;
+
+    &::placeholder {
+      color: #999;
+    }
+    &:focus-within {
+      border-bottom: var(--clr-dark) solid 1px;
+    }
+  }
+
+
+  .error {
+    color: red;
+    position: absolute;
+    bottom: -18px;
+    font-size: 14px;
+    font-weight: 200;
+  }
+}

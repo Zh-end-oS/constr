@@ -1,0 +1,19 @@
+header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: var(--main-clr);
+  padding: 0 20px;
+
+  & > .logo {
+    margin-right: auto;
+  }
+
+  & > * {
+    color: var(--clr-dark);
+    text-decoration: none;
+  }
+}
